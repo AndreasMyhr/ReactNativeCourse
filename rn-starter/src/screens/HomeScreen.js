@@ -40,6 +40,10 @@ const HomeScreen = ({navigation}) => {
     </Text>
   </TouchableOpacity>
 
+  <Button
+    title="Go to square screen" onPress={()=>navigation.navigate('Square')}>
+  </Button>
+
   </View>);
 };
 
